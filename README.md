@@ -7,6 +7,7 @@ Dinosaur: The main character of the game. It runs automatically and jumps to avo
 Ground: The platform on which the dinosaur runs.
 Obstacles: The obstacles that the dinosaur needs to avoid by jumping over them.
 Clouds: The clouds that appear in the background for visual effect.
+
 Game Rules:
 The dinosaur automatically runs forward.
 Press the spacebar to make the dinosaur jump and avoid obstacles.
@@ -17,6 +18,8 @@ Press the spacebar to start the game.
 Use the spacebar to make the dinosaur jump and avoid obstacles.
 Survive as long as possible to achieve a high score.
 The game ends if the dinosaur touches an obstacle.
+
+
 Technical Details:
 The game is built using the p5.js library, a JavaScript library for creative coding.
 The game window size is 600x200 pixels.
@@ -31,6 +34,9 @@ The draw function is called repeatedly and handles the game logic and rendering.
 The spawnClouds function creates clouds at regular intervals.
 The spawnObstacles function creates obstacles at regular intervals.
 The reset function resets the game when the player chooses to play again.
+
+
+
 Controls:
 Spacebar: Jump
 Acknowledgments:
